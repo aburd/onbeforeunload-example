@@ -1,5 +1,6 @@
 body {
     background: papayawhip;
+    color: #333;
 }
 
 .container {
@@ -12,9 +13,14 @@ body {
 }
 
 .data {
+    font-family: monospace;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
     display: inline-block;
-    text-align: left;
-    width: 40px;
+    min-width: 40px;
+    padding: 0 10px;
+    border: 1px solid #fff;
 }
 
 .seconds {

@@ -5,23 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>onbeforeunloadの例</title>
+    <title>onbeforeunload example</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>onbeforeunloadの例</h1>
+        <h1>onbeforeunload example</h1>
+        <p>When you close this window, the time log will be written to the server</p>
         <p>このwindowを閉じたら、nodeのサーバーにいる時間を記録する</p>
         <p>
             <input type="checkbox" name="alert" id="alert" checked>
-            <label for="alert">アラートwindowを出す</label>
+            <label for="alert">Alert window on / off</label>
         </p>
         <div>
-            ページにいる時間:
+            Time on page:
             <div class="time">
                 <span class="data"></span>
-                <div class="seconds">秒</div>
+                <div class="seconds">seconds</div>
             </div>
         </div>
     </div>
