@@ -1,0 +1,22 @@
+body {
+    background: papayawhip;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.time {
+    display: inline-block;
+}
+
+.data {
+    display: inline-block;
+    text-align: left;
+    width: 40px;
+}
+
+.seconds {
+    display: inline-block;
+}

@@ -3,6 +3,7 @@ const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 
+app.use(express.static('public'))
 app.use(bodyParser.json())
 
 app.get('/', (req, res) => {
@@ -14,5 +15,3 @@ app.post('/', (req, res) => {
     res.send('Got a post')
 })
 app.listen(3000, () => console.log('ポート3000にアプリを開いてみてください!'))
-
-
